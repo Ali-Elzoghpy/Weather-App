@@ -1,0 +1,15 @@
+
+@media (max-width: 600px)  { 
+    .rounded{
+        border-radius: 0 !important;
+         }
+   
+}
+
+
+/* @media (max-width: 500px) {
+    .rounded{
+        border-radius: 0 !important;
+         }
+  } */
+

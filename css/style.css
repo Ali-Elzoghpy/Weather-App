@@ -1,0 +1,190 @@
+:root{
+    --main-coloer:#009AD8;
+}
+body{
+    background-color: #1E202B;
+}
+
+.container-md{
+    width: 75% !important;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+}
+nav {
+    background-color: #1E202B;
+}
+.sm{
+    font-size: 10px;
+}
+.navbar-nav .nav-link.active {
+   
+    color: var(--main-coloer) !important;
+    background-color: transparent !important;
+    border:  solid 0.6px var(--main-coloer) !important;
+    
+}
+.nav-link{
+    color: white;
+    background-color: transparent !important;
+    border:  solid 0.6px transparent;
+    transition: all 0.5 s;
+
+
+}
+.nav-link:hover{
+    color: var(--main-coloer);
+    background-color: transparent !important;
+    border:  solid 0.6px var(--main-coloer);
+
+
+} 
+.navbar-toggler{
+    color: var(--main-coloer) !important;
+    background-color: transparent !important;
+    border:  solid 0.6px var(--main-coloer);
+    
+    
+
+}
+
+.header{
+    background-image: url(../imges/banner.png);
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+}
+.form-control{
+    background-color: #1E202B !important;
+    border: none;
+    box-shadow: none;
+    
+}
+input::placeholder{
+    color:gray!important;
+    
+}
+.bg-input{
+    background-color: #009AD8;
+    padding-inline: 40px;
+    padding-block: 10px;
+    
+    position: absolute;
+    top: 53px;
+    right: 20px;
+}
+.form-control:focus{
+    border: none;
+    box-shadow: none;
+}
+.bg-card1{
+    background-color: #2D303D;
+    color: gray;
+}
+.card-body{
+    background-color:#323544;
+}
+.card-body p {
+    color: gray;
+
+}
+
+.fs{
+    color: white;
+    font-size: 100px;
+}
+
+footer{
+    background-color: #262936;
+}
+.btn:hover{
+    background-color: #009AD8;
+    
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    background-color: #1E202B;
+    color: var(--main-coloer);
+    padding: 23px;
+    font-size: camp(.625rem,5vw,1.5625rem);
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    transition: all 0.5s;
+    
+
+}
+.icon:hover{
+    background-color: #009AD8;
+    color: white;
+}
+.bg-card2{
+    background-color: #222531;
+    color: gray;
+}
+.card-body2{
+    background-color: #262936;
+    color: gray;
+}
+.bg-end{
+    color: gray;
+}
+.sub1{
+    position: relative;
+    top: -1.75rem;
+    left: .625rem;
+}
+.sub2{
+    position: relative;
+    top: -0.9375rem;
+    left: .125rem;
+
+}
+.w-10{
+    width: 15%;
+}
+.navbar-nav {
+    --bs-nav-link-color: var(--main-coloer )!important ;
+    --bs-nav-link-hover-color: var(--main-coloer )!important;
+}
+.my-size{
+    font-size: clamp(1rem, 5vw, 80px);
+    color: white;
+}
+.hover:hover{
+    text-decoration: underline; 
+}
+.about-us{
+    background: #262936;
+
+}
+.about-us i {
+    color: #009AD8;
+}
+.map{
+    height: 18.75rem;
+    background-color: #262936;
+}
+.focus-input{
+    border: none ;
+
+}
+.focus-input:focus{
+outline: none;
+border:1px solid
+var(--main-coloer) ;
+}
+.my-btn {
+    background-color: var(--main-coloer);
+}
+.bg-inpu2{
+    background-color: #009AD8;
+    padding-inline: 40px;
+    padding-block: 10px;
+    
+    position: absolute;
+    top: 3.3125rem;
+    right: .625rem;
+}
